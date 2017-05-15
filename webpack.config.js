@@ -14,7 +14,7 @@ module.exports = {
         port: 8080
     },
     module: {
-    loaders: [
+     loaders: [
       {
         test: /\.js$/,
         exclude: /(node_modules)/,
@@ -76,7 +76,6 @@ module.exports = {
   plugins: [
     new DashboardPlugin()
   ]
-
-    }
+}
 
 

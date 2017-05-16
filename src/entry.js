@@ -1,15 +1,17 @@
 import React from 'react';
 import { render } from 'react-dom';
 import { Header } from './Components/Header/Header';
+import { Post } from './Components/Post/Post';
 
-// import routes from './routes';
+import { App } from './Components/App/App';
+
 import 'normalize.css';
-import './Components/base.css';
+import styles from './Components/base.css';
 
 window.React = React;
 
 render (
-    <Header />,
+    <App />,
     document.getElementById('root')
 )
 

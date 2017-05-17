@@ -1,5 +1,6 @@
 {
-  "posts": [{
+  "posts": [
+    {
     "title": "How to build a progressive web app with React",
     "slug": "how-to-build-a-progressive-web-app-with-react",
     "excerpt": "One of the easiest ways to get a job in the early GitHub days was to work on one of our open source projects. We’d start to recognize your username and ability, and you’d be able to get a better idea of how we operated internally. For a small, scrappy, bootstrapped company, this was a huge time saver for us early on.",
@@ -14,5 +15,6 @@
     "slug": "getting-started-with-css-modules-in-webpack",
     "excerpt": "A CSS Module is a CSS file in which all class names and animation names are scoped locally by default. All URLs (url(...)) and @imports are in module request format (./xxx and ../xxx means relative, xxx and xxx/yyy means in modules folder, i. e. in node_modules). CSS Modules compile to a low-level interchange format called ICSS or Interoperable CSS, but are written like normal CSS files.",
     "content": "A CSS Module is a CSS file in which all class names and animation names are scoped locally by default. All URLs (url(...)) and @imports are in module request format (./xxx and ../xxx means relative, xxx and xxx/yyy means in modules folder, i. e. in node_modules). CSS Modules compile to a low-level interchange format called ICSS or Interoperable CSS, but are written like normal CSS files. A CSS Module is a CSS file in which all class names and animation names are scoped locally by default. All URLs (url(...)) and @imports are in module request format (./xxx and ../xxx means relative, xxx and xxx/yyy means in modules folder, i. e. in node_modules). CSS Modules compile to a low-level interchange format called ICSS or Interoperable CSS, but are written like normal CSS files. A CSS Module is a CSS file in which all class names and animation names are scoped locally by default. All URLs (url(...)) and @imports are in module request format (./xxx and ../xxx means relative, xxx and xxx/yyy means in modules folder, i. e. in node_modules). CSS Modules compile to a low-level interchange format called ICSS or Interoperable CSS, but are written like normal CSS files. A CSS Module is a CSS file in which all class names and animation names are scoped locally by default. All URLs (url(...)) and @imports are in module request format (./xxx and ../xxx means relative, xxx and xxx/yyy means in modules folder, i. e. in node_modules). CSS Modules compile to a low-level interchange format called ICSS or Interoperable CSS, but are written like normal CSS files. A CSS Module is a CSS file in which all class names and animation names are scoped locally by default. All URLs (url(...)) and @imports are in module request format (./xxx and ../xxx means relative, xxx and xxx/yyy means in modules folder, i. e. in node_modules). CSS Modules compile to a low-level interchange format called ICSS or Interoperable CSS, but are written like normal CSS files. "
-  }]
+  }
+  ]
 }

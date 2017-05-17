@@ -1,7 +1,10 @@
 'use strict';
 
 import React from 'react';
+import { Link } from 'react-router';
+
 import { Header_Style, Container, Title, List, List_Link  } from './Header.style.js';
+
 
 export const Header = () => (
   <Header_Style>
@@ -46,16 +49,16 @@ export const Header = () => (
                         }} href="#">About]</a></li>*/}
 
 
-          <li><a style={{color: 'white',
+          <li><Link to="/" style={{color: 'white',
                         fontSize: '2rem',
                         fontFamily: 'impact',
                         marginLeft: 2,
-                        }} href="#">POSTS</a></li>
-          <li><a style={{color: 'white',
+                        }} href="#">POSTS</Link></li>
+          <li><Link to="/about" style={{color: 'white',
                         fontSize: '2rem',
                         fontFamily: 'impact',
                         marginLeft: 2,
-                        }} href="#">ABOUT</a></li>
+                        }} href="#">ABOUT</Link></li>
         </List>
       </nav>
     </Container>

@@ -44,6 +44,10 @@ module.exports = {
         loader: 'html-loader?attrs[]=video:src',
       },
       {
+        test: /\.json$/,
+        loader: 'json-loader',
+      },
+      {
         test: /\.mp4$/,
         loader: 'url?limit=10000&mimetype=video/mp4',
       },
